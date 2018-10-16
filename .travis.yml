@@ -7,4 +7,3 @@ services:
 
 before_install:
 - docker pull deferdie/nginx:latest
-- docker run --rm -it -p 80:80 deferdie/nginx:latest nginx
